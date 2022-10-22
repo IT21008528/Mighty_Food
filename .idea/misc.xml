@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1835" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/drawable/cart_background.xml" value="0.1835" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/drawable/search_edt_background.xml" value="0.1835" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/drawable/viewholder_food.xml" value="0.1835" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_cart_list.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_intro.xml" value="0.21927083333333333" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/activity_show_details.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/viewholder_cart.xml" value="0.264" />
+        <entry key="..\:/Desktop/MAD project (mine)/Mighty_Food/app/src/main/res/layout/viewholder_food.xml" value="0.264" />
         <entry key="..\:/Desktop/MAD project/Mighty_Food/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1835" />
         <entry key="..\:/Desktop/MAD project/Mighty_Food/app/src/main/res/drawable/cart_background.xml" value="0.1835" />
         <entry key="..\:/Desktop/MAD project/Mighty_Food/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />

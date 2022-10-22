@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
-        android:text="Register Here"
+        android:text="@string/register_here"
         android:textColor="#CC000000"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -27,7 +27,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Username"
+        android:hint="@string/username"
 
         android:inputType="text"
         android:maxLines="1"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="mobile"
+        android:hint="@string/mobile"
 
         android:inputType="phone"
         android:maxLines="1"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="password"
+        android:hint="@string/password"
 
         android:inputType="textPassword"
         android:maxLines="1"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Retype password"
+        android:hint="@string/retype_password"
 
         android:inputType="textPassword"
         android:maxLines="1"
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:text="Register"
+        android:text="@string/register"
         android:background="@color/orange"
         android:layout_marginTop="40dp"/>
 
@@ -98,7 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account?"
+            android:text="@string/already_have_an_account"
             android:textColor="@color/design_default_color_error" />
 
         <TextView
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"
-            android:text="Login Now"
+            android:text="@string/login_now"
             android:textColor="@color/blue"
             android:textStyle="bold" />
 

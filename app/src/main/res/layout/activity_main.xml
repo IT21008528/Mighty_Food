@@ -91,9 +91,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Food Items"
+                    android:text="@string/food_items"
                     android:textColor="@color/black"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
 
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +142,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:id="@+id/homeBtn"
@@ -162,7 +163,7 @@
                         android:id="@+id/homeView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Home"
+                        android:text="@string/home"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />
@@ -186,7 +187,7 @@
                         android:id="@+id/loginView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Login"
+                        android:text="@string/login"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />
@@ -210,7 +211,7 @@
                         android:id="@+id/ordersView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Orders"
+                        android:text="@string/orders"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />
@@ -234,7 +235,7 @@
                         android:id="@+id/feedbackView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Feedback"
+                        android:text="@string/feedback"
                         android:textAlignment="center"
                         android:textColor="#676767"
                         android:textSize="12sp" />
