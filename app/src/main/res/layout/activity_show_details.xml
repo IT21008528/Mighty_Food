@@ -56,7 +56,7 @@
                     app:srcCompat="@drawable/minus" />
 
                 <TextView
-                    android:id="@+id/numberOrderID"
+                    android:id="@+id/numberOrderTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -76,13 +76,13 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/descriptionID"
+                android:id="@+id/descriptionTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:text="description"
                 android:textColor="#686767"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
