@@ -7,10 +7,13 @@
     tools:context=".Activity.CartListActivity">
 
     <ScrollView
+        android:id="@+id/scrollViewCA"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -55,7 +58,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/itemsFeeID"
+                    android:id="@+id/totalFeeTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
@@ -85,7 +88,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/deliveryFeeID"
+                    android:id="@+id/deliveryTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
@@ -115,7 +118,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/taxFeeID"
+                    android:id="@+id/TaxTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
@@ -145,7 +148,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/totalFeeID"
+                    android:id="@+id/totalTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
@@ -172,7 +175,7 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/emptyID"
+        android:id="@+id/emptyTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Cart Is Empty"

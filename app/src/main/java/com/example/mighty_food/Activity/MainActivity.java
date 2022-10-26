@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.example.mighty_food.Adapter.FoodAdapter;
 import com.example.mighty_food.Domain.FoodDomain;
 import com.example.mighty_food.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
@@ -23,6 +27,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerViewFood();
+        bottomNavigation();
+    }
+/////////////////
+    private void bottomNavigation(){
+        FloatingActionButton floatingActionButton = findViewById(R.id.cartBtn);
+        LinearLayout homeBtn = findViewById(R.id.homeBtn);
+
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,CartListActivity.class));
+            }
+        });
+
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MainActivity.class));
+            }
+        });
     }
 
     private void recyclerViewFood() {
