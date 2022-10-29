@@ -31,7 +31,7 @@
                     android:id="@+id/viewID3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="128dp"
+                    android:layout_marginStart="150dp"
                     android:layout_marginTop="32dp"
                     android:text="Hi"
                     android:textColor="#ff3d08"
@@ -99,6 +99,19 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/viewID3"
                     app:layout_constraintTop_toBottomOf="@+id/searchID" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/viewID3"
+                    app:layout_constraintEnd_toStartOf="@+id/viewID3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/viewID3" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
