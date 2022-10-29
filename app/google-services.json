@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985769142457",
+    "project_id": "mightyfood-62f38",
+    "storage_bucket": "mightyfood-62f38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985769142457:android:9903964ed41ba599c41368",
+        "android_client_info": {
+          "package_name": "com.example.mighty_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985769142457-1n4u009u0pummq04dvkkehtikm0l5ki0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mighty_food",
+            "certificate_hash": "79142ee17899253005584ac5cc2677d69456942d"
+          }
+        },
+        {
+          "client_id": "985769142457-8lcee22r7thd41et76075n03h6r8r050.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4gd09MetDiy0Q4R830OsecK2oNQPsRUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985769142457-8lcee22r7thd41et76075n03h6r8r050.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

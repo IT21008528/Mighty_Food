@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.mighty_food.Adapter.FoodAdapter;
 import com.example.mighty_food.Domain.FoodDomain;
@@ -21,10 +22,20 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewFoodList;
 
+    ///////////////////////////----
+    TextView welcomeID;
+    String st;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //////////////////---
+        welcomeID=findViewById(R.id.viewID3);
+
+        st=getIntent().getExtras().getString("Value");
+        welcomeID.setText(st);
 
         recyclerViewFood();
         bottomNavigation();
@@ -33,11 +44,13 @@ public class MainActivity extends AppCompatActivity {
     private void bottomNavigation(){
         FloatingActionButton floatingActionButton = findViewById(R.id.cartBtn);
         LinearLayout homeBtn = findViewById(R.id.homeBtn);
+        LinearLayout loginBtn = findViewById(R.id.loginBtn);
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,CartListActivity.class));
+                Intent i2 = new Intent(MainActivity.this,CartListActivity.class);
+                startActivity(i2);
             }
         });
 
@@ -45,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, MainActivity.class));
+            }
+        });
+
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
     }
