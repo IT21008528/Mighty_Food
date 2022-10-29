@@ -47,6 +47,9 @@ public class RegisterActivity extends AppCompatActivity {
                 if(userNameTxt.isEmpty() || mobileIDTxt.isEmpty() || passwordIDTxt.isEmpty() || RePasswordIDTxt.isEmpty()){
                     Toast.makeText(RegisterActivity.this, "Please fill all the fields", Toast.LENGTH_SHORT).show();
                 }
+                else if(passwordIDTxt.length() < 5){
+                    Toast.makeText(RegisterActivity.this, "Password is too short", Toast.LENGTH_SHORT).show();
+                }
                 else if (!passwordIDTxt.equals(RePasswordIDTxt)){
                     Toast.makeText(RegisterActivity.this, "Passwords are not matching", Toast.LENGTH_SHORT).show();
                 }
